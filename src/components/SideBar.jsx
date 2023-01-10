@@ -19,7 +19,7 @@ function SideBar({ selectedCategory, setSelectedCategory }) {
           onClick={() => setSelectedCategory(category.name)}
           style={{
             background: category.name === selectedCategory && "#FC1503",
-            color: "white",
+            color: "black",
           }}
           key={category.name}
         >

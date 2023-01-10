@@ -20,7 +20,7 @@ function Feed() {
   return (
     <Stack
       sx={{
-        backgroundColor: "#b636c8",
+        backgroundColor: "#ADD8E6",
         flexDirection: { sx: "column", md: "row" },
       }}
     >

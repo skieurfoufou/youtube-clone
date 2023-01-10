@@ -12,7 +12,7 @@ function Navbar() {
       p={2}
       sx={{
         position: "sticky",
-        background: "purple",
+        background: "#00008b",
         top: 0,
         justifyContent: "space-between",
       }}
