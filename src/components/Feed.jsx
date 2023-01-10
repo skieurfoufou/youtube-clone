@@ -57,9 +57,9 @@ function Feed() {
           variant="h4"
           fontWeight="bold"
           mb={2}
-          sx={{ color: "white" }}
+          sx={{ color: "#00008b" }}
         >
-          {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
+          {selectedCategory} <span style={{ color: "#00008b" }}>videos</span>
         </Typography>
 
         <Videos videos={videos} />

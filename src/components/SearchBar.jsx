@@ -37,7 +37,7 @@ function SearchBAr() {
       />
       <IconButton
         type="submit"
-        sx={{ p: "10px", color: "purple" }}
+        sx={{ p: "10px", color: "#00008b" }}
         aria-label="search"
       >
         <Search />

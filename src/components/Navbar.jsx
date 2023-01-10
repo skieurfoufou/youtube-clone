@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -25,6 +25,14 @@ function Navbar() {
           }}
         />
       </Link>
+      <Typography
+        variant="h4"
+        fontWeight="bold"
+        letterSpacing={2}
+        sx={{ color: "white" }}
+      >
+        YOUTUBE CLONE
+      </Typography>
       <SearchBar />
     </Stack>
   );
